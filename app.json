@@ -13,14 +13,21 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ayushh.ai.MyProject"
+      "bundleIdentifier": "com.ayushchauhanrajput.MyProject"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ayushh.ai.MyProject"
+      "permissions": [
+        "INTERNET",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.ayushchauhanrajput.MyProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
