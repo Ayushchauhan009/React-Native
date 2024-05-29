@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Image } from 'react-native';
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import HomeScreen from "./HomeScreen";
+import Screen1 from "./Screen1";
 import Screen2 from "./Screen2";
 import Screen3 from "./Screen3";
 import Screen4 from "./Screen4";
@@ -20,8 +20,8 @@ const NavBar = () => {
         }}
       >
         <Tab.Screen
-          name="Home"
-          component={HomeScreen}
+          name="HomeScreen"
+          component={Screen1}
 
           options={{
             tabBarIcon: ({ color, size, focused }) => (

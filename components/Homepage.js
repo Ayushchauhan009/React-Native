@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import NavBar from "./Navbar";
-import HomeScreen from "./HomeScreen";
+import Screen1 from "./Screen1";
 
 const Homepage = () => {
   return (
     <View style={styles.container}>
       <View style={styles.homeScreenContainer}>
-        <HomeScreen />
+        <Screen1 />
       </View>
       <NavBar />
     </View>

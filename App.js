@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, Image, View, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { Loading, NavBar, DetailScreen } from './components'; // Ensure these are correctly imported
+import { Loading, NavBar, DetailScreen } from './components';
 import 'react-native-gesture-handler';
 
 const Stack = createStackNavigator();
@@ -69,8 +69,6 @@ const LoginScreen = ({ navigation }) => (
     </View>
   </View>
 );
-
-
 
 const loginWithMobile = () => {
   // Implement your login with mobile number functionality
